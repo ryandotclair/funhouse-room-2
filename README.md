@@ -8,7 +8,7 @@ Default desk login for the channel page is whatever Facilities last typed into t
 
 ### Quick links
 
-- Live pin / stage: `maintenance/cabinet-34/stage-config.yaml`
+- Live service manifests: `maintenance/cabinet-34/`
 - Traefik leftovers nobody should apply: `odds-and-ends/`
 - Tribal knowledge: `notes/`
 

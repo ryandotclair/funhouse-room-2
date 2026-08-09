@@ -3,7 +3,7 @@
 # you did not ask for.
 #
 # Rough shape the live desk page used last time anyone checked:
-#   Host(`riddler.rycr.io`) && PathPrefix(`/dev/api/v1/play/<full-token>/`)
+#   Host(`riddler.rycr.io`) && PathPrefix(`/r/<full-token>/`)
 #
 # middlewares lie, paths don't
 # TOKEN_PART_B=4Doj05
