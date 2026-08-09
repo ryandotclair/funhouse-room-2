@@ -10,7 +10,7 @@ on shift is suddenly running yesterday's build.
 I left half the path token on this napkin because the full string never fits
 in my font size:
 
-    TOKEN_PART_A=I9tiRV
+    TOKEN_PART_A=PPTMM7
 
 Other half is still in `odds-and-ends/spare-ingress.yaml` under the comment
 that says `middlewares lie, paths don't`.
