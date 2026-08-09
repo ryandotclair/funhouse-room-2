@@ -1,12 +1,16 @@
-# Cabinet 34 — "the apply wand"
+# cabinet-34
 
-Boss says: *put the desired night-wire state in git and let the cluster
-reconcile.* We call it the apply wand. You might call it GitOps.
-NKP makes it almost boring — which is how we like the gossip channel to stay up
-when someone flips the wrong sign.
+Continuous Deployment watch folder for the desk channel pin.
 
-Flux watches **this folder only**. Stage pins live in `stage-config.yaml`.
-Touching anything else is for theater. Touching this is for keeping the
-unofficial break-room frequency humming.
+Put the desired state here. Let the cluster reconcile. That is the whole product
+pitch. Touching files outside this directory is gossip, not delivery.
 
-If the frequency goes sideways, blame whoever mashed the big red button.
+## Stage pin
+
+`stage-config.yaml` is what the page reads after reconcile. Flipping it is how
+the floor sign changes. Flipping it from the physical red console is how
+Goon42 spends a Tuesday.
+
+Flux path is this directory only. If CD rolled you back and git looks dirty,
+someone used the button. Ask around. Or don't. Plausible deniability is a
+feature for some of us.

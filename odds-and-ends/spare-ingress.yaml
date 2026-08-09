@@ -1,15 +1,21 @@
-# DO NOT APPLY — scrap from last booth teardown
-# Traefik leftover. The live night-wire route is whatever PathPrefix
-# the clerk last mumbled about (NKP ships this stuff awake out of the box).
+# DO NOT APPLY: scrap from Goon3's failed route experiment
+# NKP already fronts Traefik. Copying this blindly is how you get a second opinion
+# you did not ask for.
 #
-# match: Host(`riddler.rycr.io`) && PathPrefix(`/dev/api/v1/play/…`)
+# Rough shape the live desk page used last time anyone checked:
+#   Host(`riddler.rycr.io`) && PathPrefix(`/dev/api/v1/play/<full-token>/`)
 #
 # middlewares lie, paths don't
-# TOKEN_PART_B=Sk2Gvj
+# TOKEN_PART_B=4Doj05
+#
+# Goon17: if CD just "undid" your manifest, check who was near the red console.
 #
 apiVersion: traefik.io/v1alpha1
 kind: IngressRoute
 metadata:
   name: scrap-do-not-apply
+  annotations:
+    # Goon91: why is "panic rollback" a first-class feature
+    goon.notes/status: "orphaned-on-purpose"
 spec:
   routes: []

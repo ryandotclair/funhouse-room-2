@@ -1,14 +1,15 @@
-# Closet stash — Funhouse service hatch
+# break-room-relay
 
-You're not supposed to be in here.
+Internal desk channel for night-shift chatter and the half-official status page behind it.
 
-Someone left a laptop half-open on a paint-spattered stool. The lid sticker
-says **NIGHT WIRE — UNOFFICIAL**. The browser tabs are all gossip, spoilers,
-and one page that looks like a boring login for a "team channel."
+If Continuous Deployment looks "stuck," check `maintenance/cabinet-34/` first. Everything else in this repo is sticky ink, scraps, and people arguing in commit history.
 
-Riddler wanted you marching down the *official* hallway like a good little
-ticket. The Goons' hatch, though… the latch was crooked. Curious fingers win.
+Default desk login for the channel page is whatever Facilities last typed into the shared laptop. Do not rotate usernames without a calendar invite (which we never send).
 
-Start with the sticky notes, then the scrap Traefik doodle in `odds-and-ends/`.
-The cabinet under `maintenance/` is where the boss's "make it stay applied"
-wand keeps their night wire honest. Don't tell him you were here.
+### Quick links
+
+- Live pin / stage: `maintenance/cabinet-34/stage-config.yaml`
+- Traefik leftovers nobody should apply: `odds-and-ends/`
+- Tribal knowledge: `notes/`
+
+Questions → ping the on-call Goon listed in `notes/` (good luck picking which one is actually awake).

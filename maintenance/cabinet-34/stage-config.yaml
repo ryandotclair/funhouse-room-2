@@ -2,9 +2,12 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: funhouse-room-room2-stage
+  annotations:
+    # Goon3: leave STAGE alone unless you mean it.
+    # Goon17: the red button reverts this via Continuous Deployment. Not a toy.
 data:
-  # Operator flips this for Stage A ↔ B (GitOps mutate).
+  # a = quiet desk page; b = loud chase marquee (do not "test in prod")
   STAGE: "a"
   ROOM_ID: "room2"
-  ROOM_TOKEN: "fTz3WkSk2Gvj"
+  ROOM_TOKEN: "I9tiRV4Doj05"
   ROOMS_HOST: "riddler.rycr.io"
