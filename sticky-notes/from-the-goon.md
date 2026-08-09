@@ -1,13 +1,20 @@
 Hey. Headset's dying. Don't tell the Riddler.
 
-If Traefik asks for a PathPrefix, give it the token from the
-ticket printer under the stilts — the one that *isn't* on the Conga stub.
+If you're reading this on the hatch laptop: yes, we left it unlocked.
+Username is still filled in. Password is… not written here. Ask the wall.
 
-I wrote half of it on this napkin:
+The **night wire** login lives where booth toys hang when NKP + Traefik are
+doing their quiet work — something like:
 
-    TOKEN_PART_A=CDQIb
+    https://riddler.rycr.io/dev/api/v1/play/<FULL_TOKEN>/
 
-The other half is taped inside odds-and-ends/spare-ingress.yaml
+I wrote half the token on this napkin:
+
+    TOKEN_PART_A=fTz3Wk
+
+The other half is taped inside `odds-and-ends/spare-ingress.yaml`
 under the comment that says "middlewares lie, paths don't".
 
-— G
+Also: stop putting hearts on the drywall. Night shift isn't a yearbook.
+
+— G (nightwire_desk)

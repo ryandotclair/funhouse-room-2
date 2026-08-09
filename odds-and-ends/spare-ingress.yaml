@@ -1,10 +1,11 @@
 # DO NOT APPLY — scrap from last booth teardown
-# (NKP + Traefik leftovers. The live route lives in the cabinet.)
-
-# match: Host(`riddler.rycr.io`) && PathPrefix(`/r/…`)
+# Traefik leftover. The live night-wire route is whatever PathPrefix
+# the clerk last mumbled about (NKP ships this stuff awake out of the box).
+#
+# match: Host(`riddler.rycr.io`) && PathPrefix(`/dev/api/v1/play/…`)
 #
 # middlewares lie, paths don't
-# TOKEN_PART_B=6vj2Av
+# TOKEN_PART_B=Sk2Gvj
 #
 apiVersion: traefik.io/v1alpha1
 kind: IngressRoute
