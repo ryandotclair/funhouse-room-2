@@ -14,11 +14,13 @@ spec:
     spec:
       containers:
         - name: room-site
-          image: 10.38.48.51:5000/riddler-dev/room-site:latest
+          image: 10.38.48.51:5000/riddler-dev/room-site:1786310838
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
               containerPort: 8080
+          # ConfigMap is runtime / night-console owned (not in this Flux tree).
+          # STAGE flips here without waiting on git reconcile.
           envFrom:
             - configMapRef:
                 name: funhouse-room-room2-stage

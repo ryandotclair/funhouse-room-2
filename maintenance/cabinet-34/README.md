@@ -1,12 +1,20 @@
-# Cabinet 34: "the apply wand"
+# cabinet-34
 
-Boss says: *put the desired night-wire state in git and let the cluster
-reconcile.* We call it the apply wand. You might call it GitOps.
-NKP makes it almost boring, which is how we like the gossip channel to stay up
-when someone flips the wrong sign.
+Continuous Deployment watch folder for the desk channel service.
 
-Flux watches **this folder only**. Stage pins live in `stage-config.yaml`.
-Touching anything else is for theater. Touching this is for keeping the
-unofficial break-room frequency humming.
+Put the desired state here. Let the cluster reconcile. That is the whole product
+pitch. Touching files outside this directory is gossip, not delivery.
 
-If the frequency goes sideways, blame whoever mashed the big red button.
+Flux owns Deployment, Service, and IngressRoute in this directory. Runtime stage
+env (which build the desk page thinks it is) lives in a ConfigMap the night
+console mutates. It is **not** in this repo on purpose. If you are grepping for
+`STAGE:` here, you are looking at the wrong control plane.
+
+The physical red console reverts the **last production push** to the previous
+version (NKP Continuous Deployment rollback). That is how Goon42 spends a
+Tuesday when he is bored. The path you want is in the IngressRoute. The
+password is elsewhere.
+
+If CD rolled you back and your laptop still shows the old page, roll the desk
+pods or ask who was near the button. Plausible deniability is a feature for
+some of us.
