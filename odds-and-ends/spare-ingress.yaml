@@ -6,7 +6,7 @@
 #   Host(`riddler.rycr.io`) && PathPrefix(`/r/<full-token>/`)
 #
 # middlewares lie, paths don't
-# TOKEN_PART_B=jeCNBP
+# TOKEN_PART_B=ld5Alt
 #
 # Goon17: if CD just "undid" your manifest, check who was near the red console.
 #
