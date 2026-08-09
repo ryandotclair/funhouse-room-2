@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: funhouse-room-room2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      funhouse.riddler/room-id: room2
+  template:
+    metadata:
+      labels:
+        funhouse.riddler/room-id: room2
+    spec:
+      containers:
+        - name: room-site
+          image: 10.38.48.51:5000/riddler-dev/room-site:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: funhouse-room-room2-stage
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 2
+            periodSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          resources:
+            requests:
+              cpu: 25m
+              memory: 64Mi
+            limits:
+              cpu: 200m
+              memory: 128Mi
