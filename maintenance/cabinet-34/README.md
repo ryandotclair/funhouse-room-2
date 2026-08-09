@@ -7,9 +7,12 @@ pitch. Touching files outside this directory is gossip, not delivery.
 
 ## Stage pin
 
-`stage-config.yaml` is what the page reads after reconcile. Flipping it is how
-the floor sign changes. Flipping it from the physical red console is how
-Goon42 spends a Tuesday.
+`stage-config.yaml` is what the page reads after reconcile. Treat it like any
+other desired-state file under Continuous Deployment.
+
+The physical red console is not for editing this file by hand. It reverts the
+**last production push** to the previous version (NKP Continuous Deployment
+rollback). That is how Goon42 spends a Tuesday when he is bored.
 
 Flux path is this directory only. If CD rolled you back and git looks dirty,
 someone used the button. Ask around. Or don't. Plausible deniability is a

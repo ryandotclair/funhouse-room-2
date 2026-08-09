@@ -4,9 +4,9 @@ metadata:
   name: funhouse-room-room2-stage
   annotations:
     # Goon3: leave STAGE alone unless you mean it.
-    # Goon17: the red button reverts this via Continuous Deployment. Not a toy.
+    # Goon17: red console = revert last prod push (CD), not a STAGE toy.
 data:
-  # a = quiet desk page; b = loud chase marquee (do not "test in prod")
+  # Desk page desired state. Do not confuse with the red-button prod rollback.
   STAGE: "a"
   ROOM_ID: "room2"
   ROOM_TOKEN: "I9tiRV4Doj05"
