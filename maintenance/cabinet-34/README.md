@@ -11,9 +11,7 @@ console mutates. It is **not** in this repo on purpose. If you are grepping for
 `STAGE:` here, you are looking at the wrong control plane.
 
 The physical red console reverts the **last production push** to the previous
-version (NKP Continuous Deployment rollback). That is how Goon42 spends a
-Tuesday when he is bored. The path you want is in the IngressRoute. The
-password is elsewhere.
+version (NKP Continuous Deployment rollback).
 
 If CD rolled you back and your laptop still shows the old page, roll the desk
 pods or ask who was near the button. Plausible deniability is a feature for
