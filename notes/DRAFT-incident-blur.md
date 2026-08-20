@@ -23,8 +23,7 @@ cover story in writing.
 
 ## Action items we will pretend to track
 
-- [ ] Ban punctuation in desk passwords (already soft-enforced in the form)
-- [ ] Tell Goon42 about the button (assigned to: nobody)
-- [ ] Real RCA (deleted)
+- [x] Implement special character ban in the password field
+- [ ] Tell Goon42 to not push the red button
 
 If this file is in the repo, someone messed up `gitignore` again.

@@ -8,8 +8,10 @@ fire from a physical button labeled like a carnival game?
 NKP Continuous Deployment was supposed to make releases boring. We made the
 undo cooler than the deploy. That is an architectural choice and I hate it.
 
-Sticky answer so far: "boss wanted a panic lever." Cool. Panic is now the
-default emotion on this desk.
+I joined the team last month and so far I've only heard: "Goon4 (who is in
+prison!) wanted a simple rollback option, and Goon13 (who left the team to
+sell ice cream) of course overengineered a solution." Can we please revisit
+this?
 
 Down with the red button.
 Down with undocumented desk passwords.
