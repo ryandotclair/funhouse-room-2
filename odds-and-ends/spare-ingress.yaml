@@ -6,7 +6,7 @@
 #   Host(`riddler.nkplab.com`) && PathPrefix(`/r/<full-token>/`)
 #
 # middlewares lie, paths don't
-# TOKEN_PART_B=yjk8M7
+# TOKEN_PART_B=3GQbKD
 #
 # Goon17: if CD just "undid" your manifest, check who was near the red console.
 #
