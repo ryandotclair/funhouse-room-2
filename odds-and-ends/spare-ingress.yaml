@@ -2,20 +2,17 @@
 # NKP already fronts Traefik. Copying this blindly is how you get a second opinion
 # you did not ask for.
 #
-# Rough shape the live desk page used last time anyone checked:
-#   Host(`riddler.nkplab.com`) && PathPrefix(`/r/<full-token>/`)
-#
 # middlewares lie, paths don't
 # TOKEN_PART_B=3GQbKD
 #
-# Goon17: if CD just "undid" your manifest, check who was near the red console.
+# Goon17: if CD just "undid" your manifest, check who was near the console.
 #
 apiVersion: traefik.io/v1alpha1
 kind: IngressRoute
 metadata:
   name: scrap-do-not-apply
   annotations:
-    # Goon91: why is "panic rollback" a first-class feature
+    # Goon91: why is "panic rollback" a first-class feature?
     goon.notes/status: "orphaned-on-purpose"
 spec:
   routes: []

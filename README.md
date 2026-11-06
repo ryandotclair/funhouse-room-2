@@ -1,8 +1,8 @@
-# break-room-relay
+# Night Wire
 
 Internal desk channel for night-shift chatter and the half-official status page behind it.
 
-If Continuous Deployment looks "stuck," check `maintenance/cabinet-34/` first. Everything else in this repo is sticky ink, scraps, and people arguing in commit history.
+If Continuous Deployment looks "stuck," check `maintenance/cabinet-34/` first. Everything else in this repo is sticky ink, scraps, and people arguing in sticky notes.
 
 Default desk login for the channel page is whatever Facilities last typed into the shared laptop. Do not rotate usernames without a calendar invite (which we never send).
 

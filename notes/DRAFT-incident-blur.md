@@ -6,7 +6,7 @@ Status: buried. Keep buried.
 
 A release of the desk channel service misbehaved after credentials with
 certain punctuation landed in the shared login. Downstream reload loop.
-Floor noise. Headsets angry. Something that looked enough like overload that
+Floor noise. Headsets angry. Something that looked enough like a system overload that
 monitoring pages went colorful.
 
 ## What almost happened

@@ -3,9 +3,9 @@
 Genuine question for whoever merged the console control:
 
 Why did we implement a one-press rollback that **any** bored night clerk can
-fire from a physical button labeled like a carnival game?
+press a physical button labeled like a carnival game?
 
-NKP Continuous Deployment was supposed to make releases boring. We made the
+NKP's Continuous Deployment was supposed to make releases boring. We made the
 undo cooler than the deploy. That is an architectural choice and I hate it.
 
 I joined the team last month and so far I've only heard: "Goon4 (who is in
