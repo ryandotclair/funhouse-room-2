@@ -14,7 +14,7 @@ violent things at the boss...
 Note to self: path token on this napkin because the full string never fits
 in my font size:
 
-    TOKEN_PART_A=dfmKBh
+    TOKEN_PART_A=00LPD9
 
 Note2: Desk user is still `nightwire_desk`. Password is not. 
 Check the wall (apparently). Do not paste special characters into that field. 
